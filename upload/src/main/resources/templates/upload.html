@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>单文件上传</title>
+</head>
+<body>
+<form th:method="post" th:action="@{doUpload}" enctype="multipart/form-data">
+    <label>选择文件:</label><input type="file" th:name="file">
+    <input th:type="submit" th:value="上传">
+</form>
+</body>
+</html>
+
