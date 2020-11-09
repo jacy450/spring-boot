@@ -10,3 +10,6 @@ spring:
     mode: HTML
     prefix: classpath:/templates/
     suffix: .html
+    encoding: UTF-8
+  messages:
+    basename: i18n.login
